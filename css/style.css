@@ -1,0 +1,79 @@
+@import "stylesheet.css";
+@import "normalize.css";
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-BookItalic.woff2") format("woff2"), url("../fonts/20Kopeek-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: "20 Kopeek Book";
+}
+
+.main_banner {
+  height: 100vh;
+}
+.main_banner .slider .item {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.main_banner .slider .item.item_2 {
+  background-image: url("../images/sl2.jpg");
+}
+.main_banner .slider .item.item_3 {
+  background-image: url("../images/sl3.jpg");
+}
+.main_banner .slider .item.item_4 {
+  background-image: url("../images/sl4.jpg");
+}
+
+header {
+  z-index: 2;
+}
+
+.description {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+
+.personal-style {
+  padding-top: 70px;
+}
+.personal-style h1 {
+  margin-top: 150px;
+}
+.personal-style p {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1F1F1F;
+}
+.personal-style h2 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #1F1F1F;
+}
+.personal-style .ps_last_row_added {
+  margin-top: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
